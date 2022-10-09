@@ -9,6 +9,6 @@ print("The user name: ", user)
 
 if year_service > 5:
     salary += 1000
-    print("The bonus amount is: ", salary)
+    print("The net bonus amount is: ", salary)
 else:
-    print("The bonus amount is: ", salary)
+    print("The net bonus amount is: ", salary)
