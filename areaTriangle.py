@@ -6,6 +6,6 @@ c = float(input('Enter the length of final side: '))
 
 s =(a+b+c)/2
 
-area = float((s*(s-a)(s-b)(s-c)) ** 0.5)
+area = float((s*(s-a)*(s-b)*(s-c)) ** 0.5)
 
 print("The Area of the triangle is: ", area)
