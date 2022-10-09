@@ -18,7 +18,7 @@ if time > 10:
 elif time >= 6 and time <=10:
     bonus = (8/100)*salary
     print("The net bonus amount of ",user, " : ", salary+bonus)
-elif time < 6:
+elif time > 0 and time < 6:
     bonus = (5/100)*salary
     print("The net bonus amount of ",user, " : ", salary+bonus)
 else:
