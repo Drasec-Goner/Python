@@ -14,12 +14,12 @@ time = int(input("Enter the time spent in company: "))
 
 if time > 10:
     bonus = (10/100)*salary
-    print("The net bonus amount: ", salary+bonus)
+    print("The net bonus amount of ",user, " : ", salary+bonus)
 elif time >= 6 and time <=10:
     bonus = (8/100)*salary
-    print("The net bonus amount: ", salary+bonus)
+    print("The net bonus amount of ",user, " : ", salary+bonus)
 elif time < 6:
     bonus = (5/100)*salary
-    print("The net bonus amount: ", salary+bonus)
+    print("The net bonus amount of ",user, " : ", salary+bonus)
 else:
-    print("You're FIRED")
+    print("You're FIRED :P")
