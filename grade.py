@@ -8,3 +8,5 @@ elif marks > 70 and marks <= 80:
     print("Your grade is C")
 elif marks >= 0 and marks <= 70:
     print("Your grade is D")
+else:
+    print("Marks out of range")
