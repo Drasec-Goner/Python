@@ -11,8 +11,6 @@ elif secondPerson > thirdPerson and secondPerson > firstPerson:
         print("Second Person is Oldest")
 elif secondPerson < thirdPerson and thirdPerson > firstPerson:
     print("Third person is Oldest")
-else:
-    print("Every Person has same age")
 
 if firstPerson < secondPerson and firstPerson < thirdPerson:
         print("First Person is Youngest")
